@@ -1,0 +1,87 @@
+* { box-sizing: border-box; }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: #ffffff;
+    }
+
+    body {
+      min-width: 320px;
+    }
+
+.anuncio { 
+    position: relative; 
+    width: min(100vw, 2550px); 
+    margin: 0 auto; 
+    line-height: 0; 
+}
+
+.anuncio img { 
+    display: block; 
+    width: 100%; 
+    height: auto; 
+}
+
+.enlace {
+    position: absolute;
+    display: block;
+    z-index: 10;
+    cursor: pointer;
+  
+}
+
+
+/* INVESTIGACIÓN → Instagram */
+.investigacion {
+    top: 70%;
+    left: 10%;
+    width: 20%;
+    height: 5%;
+}
+
+
+/* DISEÑO → Facebook */
+.diseno {
+    top: 70%;
+    left: 35%;
+    width: 20%;
+    height: 5%;
+}
+
+
+/* MANUAL → Google Drive */
+.manual {
+    top: 70%;
+    left: 60%;
+    width: 20%;
+    height: 5%;
+}
+
+
+/* IMPLEMENTACIÓN → Waze */
+.implementacion {
+    top: 80%;
+    left: 35%;
+    width: 20%;
+    height: 5%;
+}
+
+
+/* ENLACES DIRECTOS */
+.links {
+    text-align: center;
+    padding: 40px 20px;
+    line-height: normal;
+}
+
+.links h2 {
+    margin-bottom: 25px;
+}
+
+.links a {
+    display: inline-block;
+    margin: 8px;
+    padding: 12px 20px;
+    text-decoration: none;
+}
